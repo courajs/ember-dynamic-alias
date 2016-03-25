@@ -1,0 +1,32 @@
+Display my:
+<br>
+<label>
+<input name="media-type" type=radio onChange={{action (action (mut favoriteMediaType) 'books')}}>
+Books
+</label>
+<br>
+
+<label>
+<input name="media-type" type=radio onChange={{action (action (mut favoriteMediaType) 'movies')}}>
+Movies
+</label>
+<br>
+
+<label>
+<input name="media-type" type=radio onChange={{action (action (mut favoriteMediaType) 'music')}}>
+Musical Artists
+</label>
+<br>
+
+<div data-auto-id="my-media">
+Want to borrow one of my favorite things?
+Available titles:
+<ul>
+{{#each availableMedia as |pieceOfMedia|}}
+  <li>
+    <button {{action (action (mut pieceOfMedia.available) false)}}>Borrow</button>
+    {{pieceOfMedia.title}}
+  </li>
+{{/each}}
+</ul>
+</div>
