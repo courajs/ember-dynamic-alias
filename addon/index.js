@@ -14,6 +14,7 @@ export default function(dependentKey, aliasName) {
     let dependentValue = get(this, dependentKey);
     if (dependentValue) {
       defineProperty(this, aliasName, alias(dependentValue));
+      this.notifyPropertyChange(aliasName);
     } else {
       defineProperty(this, aliasName, computed({
         get() {
