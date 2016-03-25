@@ -33,6 +33,7 @@
     "ember-data": "^2.3.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-disable-proxy-controllers": "^1.0.1",
+    "ember-dev": "emberjs/ember-dev#bcfb9c3487ec2fd58b932394a15ce16fd9cf7eed",
     "ember-export-application-global": "^1.0.4",
     "ember-load-initializers": "^0.5.0",
     "ember-resolver": "^2.0.3",
