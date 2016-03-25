@@ -29,10 +29,10 @@ See [a more complicated example](https://github.com/courajs/ember-dynamic-alias/
 
 ## Installation
 
-* `ember install ember-dynamic-alias`
+- `npm install ember-dynamic-alias --save`
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+- `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
+- `ember test`
+- `ember test --server`
