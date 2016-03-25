@@ -1,8 +1,9 @@
 # Ember-dynamic-alias
 
 Sometimes you want to create a computed property dependent on a key
-you'll only know at run-time. You probably don't need to do this often,
-but when the occasion arises it can be pretty handy.
+you'll only know at run-time--often a value on a model, or the value of
+a computed property. You probably don't need to do this often, but when
+the occasion arises it can be pretty handy.
 
 There are a few ways to do this currently, but they're all a bit of
 a pain. This addon deals with it so you don't have to! It returns an
