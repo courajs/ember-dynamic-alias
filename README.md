@@ -1,5 +1,10 @@
 # Ember-dynamic-alias
 
+NOTE: I recently discovered the superior
+[ember-computed-indirect](https://www.npmjs.com/package/ember-computed-indirect),
+and I recommend you use that instead. I'll leave this available for anyone
+who prefers the observer approach used here.
+
 Sometimes you want to create a computed property dependent on a key
 you'll only know at run-time--often a value on a model, or the value of
 a computed property. You probably don't need to do this often, but when
